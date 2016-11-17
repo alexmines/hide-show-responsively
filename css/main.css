@@ -24,15 +24,13 @@ body {
   padding-bottom: .5em;
 }
 
-img :nth-child(even) {
-  display: none;
-}
-
 img {
   width: 100%;
 }
 
-
+img :nth-child(even) {
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
 
