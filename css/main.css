@@ -30,18 +30,20 @@ img {
 
 @media only screen and (min-width: 38em) {
 
-  img:nth-last-child(3) {
-  
-  }
-
   img {
-  width: 24%;
+  width: 32%;
   display:inline-block;
   }
 
+  img:first-child {
+  display: none;
+  }
+}
+
   @media only screen and (min-width: 60em) {
 
-  img{
+  img {
   width: 24%;
-    }
+  display: inline-block;
   }
+}
