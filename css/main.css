@@ -19,13 +19,13 @@ html {
 body {
   margin: 0;
   padding-top: .5em;
-  padding-left: .6em;
+  padding-left: .5em;
   padding-right: .5em;
   padding-bottom: .5em;
 }
 
 img {
-  width: 99%;
+  width: 100%;
 }
 
 img:nth-child(even) {
